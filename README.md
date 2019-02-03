@@ -1,2 +1,3 @@
 # Java-Programing
-class practicals
+class practicals(gndec)
+
