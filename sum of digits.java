@@ -6,7 +6,8 @@ class Main
 	{
 		int a,r=0,b=0;
 		Scanner x=new Scanner(System.in);
-		System.out.print("Enetr a number : ");
+		//Taking Input
+		System.out.print("Enter a number : ");
 		a=x.nextInt();
 		
 		while(a!=0)
@@ -16,7 +17,9 @@ class Main
 			a=a/10;
 		}
 		System.out.println();
+		//Printing Output as Sum of Numbers
 		System.out.print("The sum of digits is : "+b);
 		System.out.println();
 	}
 }
+
